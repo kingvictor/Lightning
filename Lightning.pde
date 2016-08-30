@@ -17,6 +17,8 @@ background(255);
   line(startX, startY, endX, endY)
   System.out.println((int)(Math.random()*3));
   x = x+2;
+  startX=endX;
+  startY=endY;
 }}
 void mousePressed()
 {
