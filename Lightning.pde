@@ -7,7 +7,8 @@ void setup()
 {
   size(300,300);
 }
-void draw() {
+void draw()
+{
 background(255);
 stroke(60);
   while (x < 300)
@@ -17,7 +18,8 @@ stroke(60);
   line(startX, startY, endX, endY);
   startX=endX;
   startY=endY;
-}}
+}
+}
 void mousePressed()
 {
 startX=0;
