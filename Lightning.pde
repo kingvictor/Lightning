@@ -11,6 +11,7 @@ void setup()
 }
 void draw()
 {
+  stroke(60)
   System.out.println((int)(Math.random()*3));
 }
 void mousePressed()
