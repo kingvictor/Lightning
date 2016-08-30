@@ -22,6 +22,9 @@ background(255);
 }}
 void mousePressed()
 {
-
+startX=0;
+startY=150;
+endX=0;
+endY=150;
 }
 
