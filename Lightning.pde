@@ -6,9 +6,9 @@ int endY=150;
 void setup()
 {
   size(300,300);
-  background(255);
 }
 void draw()
+background(255);
   while (x < 20)
 {
   endX = startX + (int)(Math.random())*10;
