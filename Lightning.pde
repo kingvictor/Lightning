@@ -9,11 +9,11 @@ void setup()
 }
 void draw() {
 background(255);
+stroke(60);
   while (x < 300)
 {
   endX = startX + (int)(Math.random())*10;
   endY = startY + (int)(Math.random()*18)-9;
-  stroke(60);
   line(startX, startY, endX, endY);
   startX=endX;
   startY=endY;
