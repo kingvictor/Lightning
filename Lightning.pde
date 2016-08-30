@@ -7,7 +7,6 @@ void setup()
 {
   size(300,300);
   background(255);
-  strokeWeight(6);
 }
 void draw()
   while (x < 20)
