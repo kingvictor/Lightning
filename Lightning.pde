@@ -4,11 +4,12 @@ int endX=0;
 int endY=150;
 
 void setup()
-strokeWeight()
+
 
 {
   size(300,300);
   background(255);
+  strokeWeight(6)
 }
 void draw()
 
