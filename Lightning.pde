@@ -15,7 +15,7 @@ strokeWeight (5);
   while (startX < 300)
 {
   endX = startX + (int)(Math.random()*10);
-  endY = startY + (int)(Math.random()*18)-9;
+  endY = mouseY;
   line(startX, startY, endX, endY);
   startX=endX;
   startY=endY;
@@ -24,7 +24,7 @@ strokeWeight (5);
 void mousePressed()
 {
 startX=0;
-startY=150;
+startY=mouseY;
 endX=0;
 endY=150;
 }
