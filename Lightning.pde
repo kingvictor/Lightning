@@ -9,9 +9,9 @@ void setup()
 }
 void draw()
 {
-background(255);
-stroke(60);
-strokeWeight (5);
+background(0.6);
+stroke(255);
+strokeWeight (60);
   while (startX < 300)
 {
   endX = startX + (int)(Math.random()*20);
