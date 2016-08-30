@@ -15,7 +15,6 @@ background(255);
   endY = startY + (int)(Math.random()*18)-9;
   stroke(60);
   line(startX, startY, endX, endY);
-  System.out.println((int)(Math.random()*3));
   startX=endX;
   startY=endY;
 }}
