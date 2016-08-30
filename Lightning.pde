@@ -12,6 +12,7 @@ void draw()
   while (x < 20)
 {
   stroke(60)
+  line(startX, startY, endX, endY)
   System.out.println((int)(Math.random()*3));
   x = x+2;
 }
