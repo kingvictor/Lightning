@@ -13,7 +13,7 @@ background(255);
 {
   endX = startX + (int)(Math.random())*10;
   endY = startY + (int)(Math.random()*18)-9;
-  stroke(60)
+  stroke(60);
   line(startX, startY, endX, endY);
   System.out.println((int)(Math.random()*3));
   startX=endX;
