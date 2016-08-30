@@ -7,7 +7,7 @@ void setup()
 {
   size(300,300);
 }
-void draw()
+void draw() {
 background(255);
   while (x < 20)
 {
@@ -17,7 +17,7 @@ background(255);
   line(startX, startY, endX, endY)
   System.out.println((int)(Math.random()*3));
   x = x+2;
-}
+}}
 void mousePressed()
 {
 
