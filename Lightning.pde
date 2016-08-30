@@ -9,14 +9,13 @@ void setup()
 }
 void draw() {
 background(255);
-  while (x < 20)
+  while (x < 300)
 {
   endX = startX + (int)(Math.random())*10;
   endY = startY + (int)(Math.random()*18)-9;
   stroke(60)
-  line(startX, startY, endX, endY)
+  line(startX, startY, endX, endY);
   System.out.println((int)(Math.random()*3));
-  x = x+2;
   startX=endX;
   startY=endY;
 }}
