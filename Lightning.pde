@@ -5,9 +5,10 @@ int endY=150;
 
 void setup()
 strokeWeight()
-background(255)
+
 {
   size(300,300);
+  background(255);
 }
 void draw()
 
