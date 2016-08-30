@@ -14,7 +14,7 @@ stroke(60);
 strokeWeight (5);
   while (startX < 300)
 {
-  endX = startX + (int)(Math.random()*10);
+  endX = startX + (int)(Math.random()*20)-10;
   endY = mouseY;
   line(startX, startY, endX, endY);
   startX=endX;
