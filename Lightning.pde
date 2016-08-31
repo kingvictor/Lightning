@@ -5,14 +5,14 @@ int endY=150;
 
 void setup()
 {
-  size(600,600);
+  size(400,400);
 }
 void draw()
 {
 background(0.6);
 stroke(255);
-strokeWeight (60);
-  while (startX < 600)
+strokeWeight (50);
+  while (startX < 400)
 {
   endX = startX + (int)(Math.random()*20);
   endY = startY + (int)(Math.random()*20)-10;
