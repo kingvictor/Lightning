@@ -23,8 +23,8 @@ strokeWeight (50);
 }
 void mousePressed()
 {
-startX= mouseX;
-startY=150;
+startX=0;
+startY=mousePressed;
 endX=0;
 endY=150;
 }
