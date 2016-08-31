@@ -10,7 +10,7 @@ void setup()
 void draw()
 {
 background(0.6);
-stroke(255);
+stroke(255,255,0);
 strokeWeight (50);
   while (startX < 400)
 {
