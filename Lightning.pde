@@ -12,7 +12,7 @@ void draw()
 background(0.6);
 stroke(255,255,0);
 strokeWeight (50);
-  while (startY < 800)
+  while (startY < 100000)
 {
   endX = startX + (int)(Math.random()*20)-10;
   endY = startY + (int)(Math.random()*20);
