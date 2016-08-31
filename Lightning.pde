@@ -11,7 +11,7 @@ void draw()
 {
 background(0.6);
 stroke(255,255,0);
-strokeWeight (50);
+strokeWeight (20);
   while (startY < 400)
 {
   endY = startY + (int)(Math.random()*20);
