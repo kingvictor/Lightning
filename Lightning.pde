@@ -14,8 +14,8 @@ stroke(255);
 strokeWeight (60);
   while (startX < 600)
 {
-  endX = startX + (int)(Math.random()*20);
-  endY = startY + (int)(Math.random()*20)-10;
+  endX = startX + (int)(Math.random()*20)-10;
+  endY = startY + (int)(Math.random()*20);
   line(startX, startY, endX, endY);
   startX=endX;
   startY=endY;
