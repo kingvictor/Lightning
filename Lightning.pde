@@ -9,7 +9,7 @@ void setup()
 }
 void draw()
 {
-background(0.6);
+background("http://pm1.narvii.com/6180/0cbdf23e4c54118d7cbe831a6b474b3bcd9017d6_128.jpg");
 stroke(255,255,0);
 strokeWeight (20);
   while (startY < 400)
