@@ -8,6 +8,7 @@ void setup()
 {
   size(400,400);
   photo = loadImage("Harambe.png");
+  frameRate (20);
 }
 void draw()
 {
