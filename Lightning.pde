@@ -11,7 +11,7 @@ void setup()
 }
 void draw()
 {
-background(0.6);
+
 stroke(255,255,0);
 strokeWeight (20);
   while (startY < 400)
@@ -30,6 +30,7 @@ startX=mouseX;
 endY=0;
 endX=150;
 image(photo, 0, 0);
+background(0.6);
 }
 
 
