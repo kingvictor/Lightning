@@ -1,3 +1,4 @@
+PImage photo;
 int startX=0;
 int startY=150;
 int endX=0;
@@ -6,6 +7,7 @@ int endY=150;
 void setup()
 {
   size(400,400);
+  photo = loadImage("Harambe.png");
 }
 void draw()
 {
@@ -27,6 +29,7 @@ startY=0;
 startX=mouseX;
 endY=0;
 endX=150;
+image(photo, 0, 0);
 }
 
 
