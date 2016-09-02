@@ -29,11 +29,4 @@ endY=0;
 endX=150;
 }
 
-void Harambe()
-{
-PImage img;
-  img = loadImage("http://pm1.narvii.com/6180/0cbdf23e4c54118d7cbe831a6b474b3bcd9017d6_128.jpg");
-  image(img, 0, 0);
-	}
-}
 
