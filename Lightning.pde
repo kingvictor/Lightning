@@ -1,36 +1,32 @@
-PImage photo;
-int startX=0;
-int startY=150;
-int endX=0;
-int endY=150;
+int X = 250;
+int Y = 0;
+int endX = 250;
+int endY = 0;
 
 void setup()
 {
-  size(400,400);
-  photo = loadImage("Harambe.png");
-  frameRate (10);
+  strokeWeight(4);
+  background(0);
+  size(500,500);
 }
 void draw()
 {
-background(0.6);
-stroke(255,255,0);
-strokeWeight (20);
-  while (startY < 400)
-{
-  endY = startY + (int)(Math.random()*20);
-  endX = startX + (int)(Math.random()*20)-10;
-  line(startX, startY, endX, endY);
-  startX=endX;
-  startY=endY;
-}
+  strokeWeight (2);
+  stroke((int)(Math.random()*255),(int)(Math.random()*255), (int)(Math.random()*255));
+  while (endY <500)
+  {
+    endY = Y + ((int)(Math.random()*10));
+    endX = X +(int)(Math.random()*40-20);
+    line(X, Y, endX, endY);
+    X=endX;
+    Y=endY;
+  }
 }
 void mousePressed()
 {
-startY=0;
-startX=mouseX;
-endY=0;
-endX=150;
-image(photo, 0, 0);
+   X = 250;
+   Y = 0;
+   endX = 250;
+   endY = 0;
 }
-
 
